@@ -1,3 +1,5 @@
-<p>
-  comp1 works! ({{i}})
-</p>
+<div>
+  Comp1 works! ({{i}})<br/>
+  <button (click)="add()">Add</button>
+  <div *ngFor="let item of list">{{item.id}}</div>
+</div>
