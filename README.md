@@ -1,27 +1,15 @@
-# Ape
+# POC on how to combine Angular Elements and "ng g library"
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.4.
+## About
 
-## Development server
+The Angular CLI command "ng g library" is used to help us get started with the creation of a new library. In this library, we can create multiple UI components that can be re-used by various projects. On the other hand, Angular Elements is the Angular solution to assist us to create Web Components. So, the question is: Would it be possible to combine both?
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Technologies used
 
-## Code scaffolding
+- `Angular`
+- `Angular CLI`
+- `Angular Elements`
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## POC result
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Positive.
